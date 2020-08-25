@@ -5,6 +5,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		font_weight: "bold",
 		text_align: "left",
 		line_height: "1",
+		show_author_book: true,
 	},
 	today: 0,
 	start: function () {
@@ -17,9 +18,12 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		element.style.textAlign = this.config.text_align
 		element.style.lineHeight = this.config.line_height
 		
-		if (this.today > 0)
+		if (this.today > 0){
 			if (this.config.show_page)
-				element.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0] + "<br>" + this.saveinfo[1]
+				element.innerText = "Day: " + this.today + " - " + this.saveinfo[0] + "\n" + this.saveinfo[1]
+			if (this.config.show_author_book)
+				element.innerText = element.innerText + " - Thich Nhat Hanh, \"YourTrueHome\""
+		}
 		return element
 	},
 	notificationReceived: function(notification, payload, sender) {
