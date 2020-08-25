@@ -20,9 +20,9 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		
 		if (this.today > 0){
 			if (this.config.show_page)
-				element.innerText = "Day: " + this.today + " - " + this.saveinfo[0] + "\n" + this.saveinfo[1]
+				element.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0] + "<br>" + this.saveinfo[1]
 			if (this.config.show_author_book)
-				element.innerText = element.innerText + " - Thich Nhat Hanh, \"YourTrueHome\""
+				element.innerHTML = element.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
 		}
 		return element
 	},
