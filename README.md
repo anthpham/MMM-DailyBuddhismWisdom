@@ -2,7 +2,7 @@
 A module for the [Magic Mirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich) that displays a daily bit of Buddhist wisdom from Thich Nhat Hanh's Your True Home based on the current day of the year.
 
 ## Screenshot
-| ![Screenshot on August 25th 2020, the 238th day of the year with default config.](Screenshot_defaultconfig.png)| ![Screenshot on August 25th 2020, the 238th day of the year with example config.](Screenshot_exampleconfig.png)|
+| ![Screenshot on August 25th 2020, the 238th day of the year with default config.](Screenshot_defaultconfig.PNG)| ![Screenshot on August 25th 2020, the 238th day of the year with example config.](Screenshot_exampleconfig.PNG)|
 |---|---|
 |Screenshot on August 25th 2020, the 238th day of the year with default config.|Screenshot on August 25th 2020, the 238th day of the year with example config.|
 
